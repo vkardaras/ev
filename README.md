@@ -2,13 +2,13 @@
 
 ## Specify a variable in application properties
 
-```toml
+```properties
 app.api.key=${MY_API_KEY}
 ```
 
 ### Specify a default value for variable if not exists
 
-```toml
+```properties
 app.database.url=${DB_URL:jdbc:postgresql://localhost:5432/mydb}
 ```
 
